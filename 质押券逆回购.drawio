@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.1.3">
   <diagram name="第 1 页" id="7q6q0Zq5l3fnQO4hX1ic">
-    <mxGraphModel dx="1042" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1226" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="WxFiv181dfcM7yHNMsCA-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-4" target="WxFiv181dfcM7yHNMsCA-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WxFiv181dfcM7yHNMsCA-4" value="开启流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WxFiv181dfcM7yHNMsCA-4" value="&lt;div&gt;信评审批&lt;/div&gt;开启流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WxFiv181dfcM7yHNMsCA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-6">
@@ -131,8 +131,68 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-50" target="WxFiv181dfcM7yHNMsCA-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-50" target="WxFiv181dfcM7yHNMsCA-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WxFiv181dfcM7yHNMsCA-50" value="质押式逆回购" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="510" width="120" height="60" as="geometry" />
+          <mxGeometry y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-54" target="WxFiv181dfcM7yHNMsCA-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-54" value="查询流程历史记录&lt;div&gt;审核意见包含“”豁免“”&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-57" target="WxFiv181dfcM7yHNMsCA-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-57" target="WxFiv181dfcM7yHNMsCA-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-57" value="处理质押式回购的&lt;div&gt;审批数据&lt;/div&gt;&lt;div&gt;并保存&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-59" target="WxFiv181dfcM7yHNMsCA-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-59" value="债券信息为空&lt;div&gt;即质押式逆回购不携带&lt;/div&gt;&lt;div&gt;债券&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-61" value="封装空数据&lt;div&gt;审计保存&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-63" target="WxFiv181dfcM7yHNMsCA-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-63" value="查询行权收益率&lt;div&gt;企业性质&lt;/div&gt;&lt;div&gt;主体评级+债项评级&lt;/div&gt;&lt;div&gt;内评等&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-66" target="WxFiv181dfcM7yHNMsCA-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-66" value="查询意见池" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-68" target="WxFiv181dfcM7yHNMsCA-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-68" value="查询担保人全程&lt;div&gt;发行人全程&lt;/div&gt;&lt;div&gt;内评等级&lt;/div&gt;&lt;div&gt;信评池&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-70" value="封装通过数据并返回" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxFiv181dfcM7yHNMsCA-72" target="WxFiv181dfcM7yHNMsCA-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-72" value="修改状态为待修改" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WxFiv181dfcM7yHNMsCA-74" value="这个好像只有现券和一级交易的逻辑" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
